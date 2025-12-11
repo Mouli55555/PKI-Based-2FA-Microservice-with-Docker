@@ -1,0 +1,2 @@
+docker/cron/2fa-cron text eol=lf
+docker/scripts/*.py text eol=lf
