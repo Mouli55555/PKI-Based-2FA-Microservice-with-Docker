@@ -6,7 +6,6 @@ import com.example.pki2fa.service.DecryptService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
 public class DecryptController {
 
     private final DecryptService decryptService;

@@ -7,7 +7,6 @@ import com.example.pki2fa.service.TotpService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
 public class TfaController {
 
     private final TotpService totpService;
